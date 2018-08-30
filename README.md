@@ -10,8 +10,8 @@ To deploy the operator simply runtime
 $ kubectl apply -f deploy
 ```
 
-This will deploy the operator, CRD, and rbac with an example redis setup with 3
-replicas.
+This will deploy the operator, CRD, and rbac with an example redis setup with 1
+replica.
 
 This does not currently deploy a functioning cluster
 
