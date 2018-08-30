@@ -1,0 +1,3 @@
+apiVersion: redis.kfj.io/v1alpha1
+kind: Redis
+projectName: redis-operator
