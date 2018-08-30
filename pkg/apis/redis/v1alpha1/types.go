@@ -17,13 +17,13 @@ type RedisList struct {
 type Redis struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata"`
-	Spec              RedisSpec   `json:"spec"`
+	Spec              Spec   `json:"spec"`
 	Status            RedisStatus `json:"status,omitempty"`
 }
 
-type RedisSpec struct {
-	// Fill me
+type Spec struct {
+	Size int32
 }
 type RedisStatus struct {
-	// Fill me
+	Nodes []string
 }
